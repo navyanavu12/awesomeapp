@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <form class="search-bar">
+                <div class="row">
+                    <div class="col-9">
+                        <input type="search" placeholder="Enter a city.." autofocus="on" class="form-control" />
+                    </div>
+
+                    <div class="col-3">
+                        <input type="submit" value="Search" class="form-control btn btn-primary" />
+                    </div>
+                </div>
+            </form>
+
+            <h1>Sydney NSW, Australia</h1>
+
+            <ul>
+                <li>Tuesday 12:00 PM</li>
+                <li>Mostly sunny</li>
+            </ul>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="clearfix">
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="partly_cloudy icon"
+                            class="partly_cloudy-icon float-left" />
+
+                        <div class="float-left">
+                            <span class="temperature-sydney">70</span>
+                            <span class="units">°F|°C</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <ul>
+                        <li>Precipitation: 0%</li>
+                        <li>Humidity: 55%</li>
+                        <li>Wind: 9 mph</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="forecast">
+                        <div class="row">
+                            <div class="col">Tuesday</div>
+                            <div class="col">Wednesday</div>
+                            <div class="col">Thursday</div>
+                            <div class="col">Friday</div>
+                            <div class="col">Saturday</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="emoji">
+                        <div class="row">
+                            <div class="col">☀️</div>
+                            <div class="col">☀️</div>
+                            <div class="col">🌧</div>
+                            <div class="col">⛈</div>
+                            <div class="col">☀️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="temperature">
+                <div class="row">
+                    <div class="col">70° 57°</div>
+                    <div class="col">73° 62°</div>
+                    <div class="col">79° 65°</div>
+                    <div class="col">76° 61°</div>
+                    <div class="col">74° 60°</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="src/index.js"></script>
+<script src="https://kit.fontawesome.com/ccdeb24d30.js" crossorigin="anonymous"></script>
+
+</html>
